@@ -46,3 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* BEGIN REMOVE SECTION */
+
+body {
+	background: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+/* END REMOVE SECTION */
