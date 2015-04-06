@@ -59,35 +59,12 @@ div {
 
 /* END REMOVE SECTION */
 
-li {
-	display: inline;
+.top-navigation {
+	background: #fff;
 }
 
-header {
-	background: White;
-}
-
-nav {
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-	font-size: 1em;
-	letter-spacing: 0.01em;
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
 	margin: 0 auto;
-	max-width: 60em;
-	padding: 1em;
-	vertical-align: middle;
-}
-
-nav a {
-	color: DarkGray;
-	margin: 0 1em;
-	text-decoration: none;
-}
-
-.current-page {
-	color: DarkSlateGray;
-}
-
-.nav-logo {
-	margin-right: 20em;
-	width: 1.5em;
 }
