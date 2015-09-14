@@ -28,7 +28,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
+	color: #838994;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
 	line-height: 1;
 }
 ol, ul {
@@ -63,13 +70,37 @@ div {
 	background: #fff;
 }
 
+.content {
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 }
 
-.top-navigation > .content > .logo {
+.top-navigation .content > .logo {
 	height: 70px;
-	margin-left: 14px;
+}
+
+.top-navigation .content > .links {
+	float: right;
+	margin-top: 27px;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.links > li {
+		display: inline-block;
+		margin-left: 30px;
+}
+
+.links > li:hover {
+	color: #4c5058;
+	cursor: pointer;
 }
