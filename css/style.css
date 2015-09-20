@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
-	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 body {
 	color: #838994;
@@ -37,6 +40,7 @@ body {
 	font-size: 16px;
 	letter-spacing: 0.03em;
 	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -61,7 +65,7 @@ body {
 }
 
 div {
-	border: 1px solid Black;
+	outline: 1px solid Black;
 }
 
 /* END REMOVE SECTION */
@@ -71,7 +75,6 @@ div {
 }
 
 .content {
-	box-sizing: border-box;
 	padding: 0 15px;
 }
 
@@ -85,22 +88,22 @@ div {
 	height: 70px;
 }
 
-.top-navigation .content > .links {
+.top-navigation .links {
 	float: right;
-	margin-top: 27px;
+	margin-top: 25px;
 }
 
-.top-navigation .links > .active {
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.top-navigation .links .active {
 	color: #4c5058;
 	font-weight: 500;
 }
 
-.links > li {
-		display: inline-block;
-		margin-left: 30px;
-}
-
-.links > li:hover {
+.top-navigation .links li:hover {
 	color: #4c5058;
 	cursor: pointer;
 }
