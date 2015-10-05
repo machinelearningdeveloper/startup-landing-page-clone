@@ -76,12 +76,12 @@ div {
 
 .content {
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
 }
 
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
-    margin: 0 auto;
 }
 
 .top-navigation .content > .logo {
@@ -108,38 +108,52 @@ div {
     cursor: pointer;
 }
 
-.splash {
-    position: relative;
+.introduction {
+    background-image: url('../images/first-background copy.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    overflow: auto;
 }
 
-.intro {
+.introduction .content {
     color: #fff;
     font-weight: lighter;
-    position: absolute;
+    margin-top: 200px;
     text-align: center;
-    top: 40%;
-    width: 100%;
 }
 
-.intro-title {
-    font-size: 48px;
-}
-
-.intro-text {
-    font-size: 24px;
-    margin: 20px auto;
-}
-
-.intro-button {
+button {
     background-color: #ff6600;
-    border-radius: 5px;
-    font-size: 20px;
-    width: 150px;
-    margin: 0 auto;
-    padding: 15px 15px;
+    color: #fff;
+    border-radius: 4px;
+    border-style: none;
+    text-shadow: none;
+    line-height: 1.33;
+}
+
+button:hover {
+    background-color: #ff3300;
     cursor: pointer;
 }
 
-.splash img {
-    width: 100%;
+.big-button {
+    padding: 16px 26px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.content .bigbutton {
+    margin-top: 15px;
 }
