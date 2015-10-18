@@ -157,3 +157,46 @@ button:hover {
 .content .bigbutton {
     margin-top: 15px;
 }
+
+.use-images {
+    padding: 0;
+    height: 160px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.all-devices-use {
+    background-image: url('../images/icon-devices copy.svg');
+    margin-right: 40px;
+    overflow: auto;
+}
+
+.productivity {
+    background-image: url('../images/icon-coffee copy.svg');
+    margin-right: 40px;
+    margin-left: 40px;
+    overflow: auto;
+
+}
+
+.pay-as-you-go {
+    background-image: url('../images/icon-refill copy.svg');
+    margin-left: 40px;
+    overflow: auto;
+}
+
+.all-devices-use, .productivity, .pay-as-you-go {
+    position: relative;
+    background-size: 127px 127px;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 127px;
+    display: inline-block;
+    padding: 0;
+}
+
+.all-devices-use-text, .productivity-text, .pay-as-you-go-text {
+    width: 227px;
+    position: absolute;
+    bottom: 0;
+}
