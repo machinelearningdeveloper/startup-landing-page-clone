@@ -170,3 +170,39 @@ button:hover {
     font-weight: 400;
     margin: .75rem;
 }
+
+.social .content {
+    text-align: center;
+}
+
+.social {
+    margin: 5rem 0;
+}
+
+.social h5 {
+    color: #000;
+    display: block;
+    margin: 2rem 0 .625rem;
+}
+
+.social li {
+    display: inline-block;
+    border: 1px solid #eaebec;
+    border-radius: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1.25rem .625rem;
+    padding: .625rem;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
